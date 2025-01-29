@@ -1,0 +1,182 @@
+[
+    {
+        "pregunta": "La proposicion: Si llueve entonces no hace sol¿Es Simple o Compuesta?",
+        "options": [
+            "Simple",
+            "Compuesta",
+            "Ninguna"
+        ],
+        "answer": "Compuesta"
+    },
+    {
+        "pregunta": "¿Cual es el dominio de la funcion -raiz(x+1)?",
+        "options": [
+            "]-infinito,-1[",
+            "Reales",
+            "[-1,+infinito["
+        ],
+        "answer": "[-1,+infinito["
+    },
+    {
+        "pregunta": "¿Cual es el dominio de la funcion y=x^2 +5x -3?",
+        "options": [
+            "Reales",
+            "0",
+            "[-2;+infinito"
+        ],
+        "answer": "Reales"
+    },
+    {
+        "pregunta": "Dado el conjunto A{1,2,3,5,6,7}¿cuál es su cardinalidad?",
+        "options": [
+            "5",
+            "infinito",
+            "6"
+        ],
+        "answer": "6"
+    },
+    {
+        "pregunta": "Dada la función f(x)=-6x+2 ¿cuál es su monotonia? ",
+        "options": [
+            "Creciente",
+            "Decreciente",
+            "Maximo"
+        ],
+        "answer": "Decreciente"
+    },
+    {
+        "pregunta": "¿Cuál es su el rango de la función f(x)=-7x?",
+        "options": [
+            "1",
+            "-infinito;0",
+            "Reales"
+        ],
+        "answer": "Reales"
+    },
+    {
+        "pregunta": "¿Cual es el corte en y de la función f(x)=7x-3?",
+        "options": [
+            "0",
+            "7",
+            "-3"
+        ],
+        "answer": "-3"
+    },
+    {
+        "pregunta": "¿Si las pendientes de 2 rectas son iguales, estas son perpendiculares?",
+        "options": [
+            "Verdadero",
+            "Falso",
+            "Ninguna"
+        ],
+        "answer": "Falso"
+    },
+    {
+        "pregunta": "Dada la funcion: (x-2)(x+3)¿cuales son las raices?",
+        "options": [
+            "-2;3",
+            "1",
+            "2;-3"
+        ],
+        "answer": "2;-3"
+    },
+    {
+        "pregunta": "Sea la funcion f(x)=x^3+7x^2-3x+5¿cuál es el corte con el eje y?",
+        "options": [
+            "5",
+            "7",
+            "Reales"
+        ],
+        "answer": "5"
+    },
+    {
+        "pregunta": "El siguiente conjunto está representado por: A{1,2,3,5,6}",
+        "options": [
+            "Extension",
+            "Comprension",
+            "Diagrama de Venn"
+        ],
+        "answer": "Extension"
+    },
+    {
+        "pregunta": "¿Qué es una función cuadrática?",
+        "options": [
+            "Una función de la forma f(x) = ax² + bx + c",
+            "Una función de la forma f(x) = ax + b",
+            "Una función lineal"
+        ],
+        "answer": "Una función de la forma f(x) = ax² + bx + c"
+    },
+    {
+        "pregunta": "¿Cuál es el dominio de la función f(x) = √(x-2)?",
+        "options": [
+            "[2, +infinito)",
+            "Reales",
+            "[-infinito, 2]"
+        ],
+        "answer": "[2, +infinito)"
+    },
+    {
+        "pregunta": "Si una recta tiene pendiente negativa, ¿cuál es la monotonía?",
+        "options": [
+            "Creciente",
+            "Decreciente",
+            "Horizontal"
+        ],
+        "answer": "Decreciente"
+    },
+    {
+        "pregunta": "¿Qué es un conjunto vacío?",
+        "options": [
+            "Un conjunto que no contiene elementos",
+            "Un conjunto con elementos infinitos",
+            "Un conjunto con solo un elemento"
+        ],
+        "answer": "Un conjunto que no contiene elementos"
+    },
+    {
+        "pregunta": "¿Cuál es la forma general de la ecuación de la recta?",
+        "options": [
+            "y = mx + b",
+            "y = ax² + bx + c",
+            "x = a"
+        ],
+        "answer": "y = mx + b"
+    },
+    {
+        "pregunta": "¿Cuál es el rango de la función f(x) = x³?",
+        "options": [
+            "Reales",
+            "[-infinito, +infinito]",
+            "Positivos"
+        ],
+        "answer": "Reales"
+    },
+    {
+        "pregunta": "¿Qué representa la intersección de dos rectas?",
+        "options": [
+            "Un punto de corte",
+            "Una pendiente",
+            "Una función cuadrática"
+        ],
+        "answer": "Un punto de corte"
+    },
+    {
+        "pregunta": " A = {1,2,3} y  B = {2,3,4}, ¿cuál es la intersección de A y B?",
+        "options": [
+            "{1, 2, 3, 4}",
+            "{2, 3}",
+            "{1, 4}"
+        ],
+        "answer": "{2, 3}"
+    },
+    {
+        "pregunta": "¿Qué es un número primo?",
+        "options": [
+            "Un número que solo tiene dos divisores 1 y él mismo",
+            "Un número  que solo tiene un divisor",
+            "Un número divisible por cualquier número"
+        ],
+        "answer": "Un número que solo tiene dos divisores 1 y él mismo"
+    }
+]
