@@ -69,7 +69,7 @@ def inicializar_juego():
     juego_activo = True
     pregunta_actual = None
     # Seleccionar preguntas aleatorias
-    preguntas = random.sample(todas_preguntas, len(pc))  # Selecciona tantas preguntas como puertas
+    preguntas = random.sample(todas_preguntas, len(pc))  
 
 # Función para mostrar texto en pantalla
 def dibujar_texto(text, x, y, color=(255, 255, 255)):
@@ -78,7 +78,7 @@ def dibujar_texto(text, x, y, color=(255, 255, 255)):
     for i, linea in enumerate(lineas):
         # Renderizar cada línea y dibujarla en la pantalla
         texto_renderizado = fondo.render(linea, True, color)
-        pantalla.blit(texto_renderizado, (x, y + i * 30))  # Ajusta el desplazamiento de cada línea
+        pantalla.blit(texto_renderizado, (x, y + i * 30))  
 
 # Función para mover al jugador utilizando principios matriciales
 def mover_player(direction):
@@ -95,17 +95,10 @@ def mover_player(direction):
     player_pos[0] = np.clip(player_pos[0], 0, LARGO - imagen_player.get_width())
     player_pos[1] = np.clip(player_pos[1], 0, ANCHO - imagen_player.get_height())
 
-#Musica de fondo
-pygame.mixer.music.load("Friendly-Machines.mp3")
-pygame.mixer.music.play(-1)
-pygame.mixer.init()
-
-
 
 # Inicializar juego al inicio
 inicializar_juego()
 
-# Bucle principal del juego
 while True:
     pantalla.fill(WHITE)
     # Dibujar el fondo
@@ -165,7 +158,7 @@ while True:
     # Dibujar jugador y pc
     pantalla.blit(imagen_player, player_pos)
     for i, door in enumerate(pc):
-        if i >= pc_actual:  # Solo dibujar las puertas que no han sido "desactivadas"
+        if i >= pc_actual:  
             pantalla.blit(imagen_pc, door.topleft)
 
     # Dibujar vidas
@@ -174,18 +167,18 @@ while True:
 
     # Mostrar pregunta
     if pregunta_actual:
-        pregunta_rect = pygame.Rect(70, 220, LARGO - 140, 150)  # Ajusta el tamaño y la posición según sea necesario
+        pregunta_rect = pygame.Rect(25, 220, LARGO - 50, 150)  
         pygame.draw.rect(pantalla, (0, 0, 0), pregunta_rect)
-        dibujar_texto(pregunta_actual["pregunta"], 75, 230)
+        dibujar_texto(pregunta_actual["pregunta"], 25, 230)
         for i, option in enumerate(pregunta_actual["options"]):
-            dibujar_texto(f"{i + 1}. {option}", 75, 260 + i * 40)
+            dibujar_texto(f"{i + 1}. {option}", 25, 260 + i * 40)
 
    
     # Dibujar un fondo negro detrás del mensaje
     if pc_actual >= len(pc):
-        mensaje_rect = pygame.Rect(50, 250, LARGO - 100, 100)  # Ajusta el tamaño y posición del fondo negro
-        pygame.draw.rect(pantalla, (0, 0, 0), mensaje_rect)  # Fondo negro
-        dibujar_texto("¡Felicidades, Lograste desactivar la IA y salvar a la PUCE!", 50, 300)  # Mostrar el mensaje sobre el fondo
+        mensaje_rect = pygame.Rect(50, 250, LARGO - 100, 100)  
+        pygame.draw.rect(pantalla, (0, 0, 0), mensaje_rect)  
+        dibujar_texto("¡Felicidades, Lograste desactivar la IA y salvar a la PUCE!", 50, 300)  
         juego_activo = False
 
     pygame.display.flip()

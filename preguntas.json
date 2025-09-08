@@ -1,6 +1,6 @@
 [
     {
-        "pregunta": "La proposicion: Si llueve entonces no hace sol¿Es Simple o Compuesta?",
+        "pregunta": "Si llueve entonces no hace sol¿Es Simple o Compuesta?",
         "options": [
             "Simple",
             "Compuesta",
@@ -27,7 +27,7 @@
         "answer": "Reales"
     },
     {
-        "pregunta": "Dado el conjunto A{1,2,3,5,6,7}¿cuál es su cardinalidad?",
+        "pregunta": "Sea A{1,2,3,5,6,7} ¿Cuál es su cardinalidad?",
         "options": [
             "5",
             "infinito",
@@ -36,7 +36,7 @@
         "answer": "6"
     },
     {
-        "pregunta": "Dada la función f(x)=-6x+2 ¿cuál es su monotonia? ",
+        "pregunta": "Sea f(x)=-6x+2 ¿cuál es su monotonia? ",
         "options": [
             "Creciente",
             "Decreciente",
@@ -63,7 +63,7 @@
         "answer": "-3"
     },
     {
-        "pregunta": "¿Si las pendientes de 2 rectas son iguales, estas son perpendiculares?",
+        "pregunta": "Si m1=m2,¿son rectas perpendiculares?",
         "options": [
             "Verdadero",
             "Falso",
@@ -81,7 +81,7 @@
         "answer": "2;-3"
     },
     {
-        "pregunta": "Sea la funcion f(x)=x^3+7x^2-3x+5¿cuál es el corte con el eje y?",
+        "pregunta": "Sea f(x)=x^3+7x^2-3x+5 ¿cuál es el corte con el eje y?",
         "options": [
             "5",
             "7",
@@ -90,7 +90,7 @@
         "answer": "5"
     },
     {
-        "pregunta": "El siguiente conjunto está representado por: A{1,2,3,5,6}",
+        "pregunta": "El conjunto A{1,2,3,5,6} está representado por: ",
         "options": [
             "Extension",
             "Comprension",
@@ -99,7 +99,7 @@
         "answer": "Extension"
     },
     {
-        "pregunta": "¿Qué es una función cuadrática?",
+        "pregunta": "¿Cual es una función cuadrática?",
         "options": [
             "Una función de la forma f(x) = ax² + bx + c",
             "Una función de la forma f(x) = ax + b",
@@ -117,13 +117,13 @@
         "answer": "[2, +infinito)"
     },
     {
-        "pregunta": "Si una recta tiene pendiente negativa, ¿cuál es la monotonía?",
+        "pregunta": "Si una recta tiene pendiente positiva, ¿su monotonía es?",
         "options": [
             "Creciente",
             "Decreciente",
             "Horizontal"
         ],
-        "answer": "Decreciente"
+        "answer": "Creciente"
     },
     {
         "pregunta": "¿Qué es un conjunto vacío?",
@@ -162,7 +162,7 @@
         "answer": "Un punto de corte"
     },
     {
-        "pregunta": " A = {1,2,3} y  B = {2,3,4}, ¿cuál es la intersección de A y B?",
+        "pregunta": " A = {1,2,3} y B = {2,3,4},¿cuál es la intersección de A y B?",
         "options": [
             "{1, 2, 3, 4}",
             "{2, 3}",
@@ -178,5 +178,176 @@
             "Un número divisible por cualquier número"
         ],
         "answer": "Un número que solo tiene dos divisores 1 y él mismo"
+    },
+    {
+        "pregunta": "¿Qué ejemplo es un subespacio vectorial en R²?",
+        "options": [
+            "Una línea recta que pasa por el origen (0,0)",
+            "Una línea recta que no pasa por el origen",
+            "Un círculo de radio 1"
+        ],
+        "answer": "Una línea recta que pasa por el origen (0,0)"
+    },
+    {
+        "pregunta": "Si sumas dos vectores y multiplicas por un número, ¿qué estás haciendo?",
+        "options": [
+            "Una combinación lineal",
+            "Una ecuación cuadrática",
+            "Una integral"
+        ],
+        "answer": "Una combinación lineal"
+    },
+    {
+        "pregunta": "Dados los vectores (1,0) y (0,1), ¿qué puedes generar con ellos?",
+        "options": [
+            "Todo el plano R²",
+            "Solo la línea recta y = x",
+            "Solo el punto (0,0)"
+        ],
+        "answer": "Todo el plano R²"
+    },
+    {
+        "pregunta": "Si un conjunto de vectores incluye al (0,0), ¿es LI?",
+        "options": [
+            "No, siempre es dependiente",
+            "Sí, porque el cero no afecta",
+            "Depende de los otros vectores"
+        ],
+        "answer": "No, siempre es dependiente"
+    },
+    {
+        "pregunta": "¿Cuál es la base más simple para R³?",
+        "options": [
+            "{(1,0,0), (0,1,0), (0,0,1)}",
+            "{(1,1,1), (2,2,2)}",
+            "{(0,0,0), (1,0,0)}"
+        ],
+        "answer": "{(1,0,0), (0,1,0), (0,0,1)}"
+    },
+    {
+        "pregunta": "Si dos vectores son paralelos, ¿son LI?",
+        "options": [
+            "No, uno es múltiplo del otro",
+            "Sí, porque tienen direcciones similares",
+            "Solo si son vectores nulos"
+        ],
+        "answer": "No, uno es múltiplo del otro"
+    },
+    {
+        "pregunta": "¿Qué es el Wronskiano?",
+        "options": [
+            "Una herramienta para ver si las funciones son LI",
+            "Un tipo de matriz cuadrada",
+            "Una operación de suma de funciones"
+        ],
+        "answer": "Una herramienta para ver si funciones son independientes"
+    },
+    {
+        "pregunta": "¿Cuál de estos es un subespacio vectorial?",
+        "options": [
+            "Todos los vectores de la forma (a, 2a) donde a es un número real",
+            "Los puntos (x, y) donde x + y = 5",
+            "Los vectores (a, b) con a > 0"
+        ],
+        "answer": "Todos los vectores de la forma (a, 2a) donde a es un número real"
+    },
+    {
+        "pregunta": "Si tienes un solo vector no nulo, ¿es LI?",
+        "options": [
+            "Sí",
+            "No",
+            "Depende de su magnitud"
+        ],
+        "answer": "Sí"
+    },
+    {
+        "pregunta": "¿Qué significa que un conjunto de vectores 'genera' un espacio?",
+        "options": [
+            "Que combinándolos puedes obtener cualquier vector del espacio",
+            "Que son todos diferentes entre sí",
+            "Que forman una figura geométrica"
+        ],
+        "answer": "Que combinándolos puedes obtener cualquier vector del espacio"
+    },
+    {
+        "pregunta": "Si el Wronskiano de dos funciones es cero en todo punto, ¿qué implica?",
+        "options": [
+            "Podrían ser linealmente dependientes",
+            "Son siempre independientes",
+            "Ninguna de las anteriores"
+        ],
+        "answer": "Podrían ser linealmente dependientes"
+    },
+    {
+        "pregunta": "¿Cuántos vectores se necesitan como mínimo para generar R²?",
+        "options": [
+            "2",
+            "1",
+            "3"
+        ],
+        "answer": "2"
+    },
+    {
+        "pregunta": "Si tienes tres vectores en R², ¿son siempre LI?",
+        "options": [
+            "Sí, porque en R² no puede haber más de 2 vectores independientes",
+            "No, depende de los vectores",
+            "Solo si uno es el vector cero"
+        ],
+        "answer": "Sí, porque en R² no puede haber más de 2 vectores independientes"
+    },
+    {
+        "pregunta": "¿Qué operación es fundamental en un espacio vectorial?",
+        "options": [
+            "Suma de vectores y multiplicación por escalares",
+            "Multiplicación de vectores",
+            "División entre vectores"
+        ],
+        "answer": "Suma de vectores y multiplicación por escalares"
+    },
+    {
+        "pregunta": "¿Cuál es un ejemplo de conjunto linealmente dependiente?",
+        "options": [
+            "{(1,2), (2,4)}",
+            "{(1,0), (0,1)}",
+            "{(3,1), (0,5)}"
+        ],
+        "answer": "{(1,2), (2,4)}"
+    },
+    {
+        "pregunta": "Si dos funciones son LD, su Wronskiano es:",
+        "options": [
+            "Cero en todo el intervalo",
+            "Distinto de cero siempre",
+            "Igual a 1"
+        ],
+        "answer": "Cero en todo el intervalo"
+    },
+    {
+        "pregunta": "¿Qué es la dimensión de un espacio vectorial?",
+        "options": [
+            "El número de vectores en una base",
+            "El número de coordenadas de los vectores",
+            "La cantidad de subespacios posibles"
+        ],
+        "answer": "El número de vectores en una base"
+    },
+    {
+        "pregunta": "¿La cápsula lineal de {(1,0)} en R² genera:",
+        "options": [
+            "Todos los vectores de la forma (a, 0)",
+            "Todo R²",
+            "Solo el vector (1,0)"
+        ],
+        "answer": "Todos los vectores de la forma (a, 0)"
+    },
+    {
+        "pregunta": "Si un conjunto tiene solo el vector (0,0), ¿es LI?",
+        "options": [
+            "No, porque el vector cero solo no puede ser independiente",
+            "Sí, porque no hay otros vectores",
+            "Depende del espacio"
+        ],
+        "answer": "No, porque el vector cero solo no puede ser independiente"
     }
 ]
