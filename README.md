@@ -1,0 +1,1 @@
+Videojuego de Trivia que pone a prueba los conocimientos en álgebra y cálculo mediante una serie de preguntas y respuestas. Desarrollado en Python utilizando la librería Pygame y .json como base de datos para las preguntas y respuestas.
